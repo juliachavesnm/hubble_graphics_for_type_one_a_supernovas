@@ -77,8 +77,6 @@ data.txt
 
 with tab-separated columns.
 
-The current GitHub repository contains the analysis notebook but does not include `data.txt`; therefore, the dataset must be provided separately before reproducing the analysis.
-
 ## Methods
 
 ### Luminosity Distance
@@ -163,7 +161,7 @@ pip install pandas numpy matplotlib scipy scikit-learn
 Then open:
 
 ```text
-Gráfico_de_Hubble_usando_supernovas_Tipo_1a.ipynb
+hubble_diagram_ia_supernova.ipynb
 ```
 
 Make sure that `data.txt` is available in the notebook's working directory.
@@ -184,13 +182,3 @@ The notebook compares:
 It also provides an estimate of the Hubble constant using the low-redshift supernova subset.
 
 The numerical results and corresponding plots are contained in the Jupyter notebook.
-
-## References
-
-The scientific background and data used in this analysis should be cited according to the original source of the supernova dataset.
-
-If this repository is used in academic work, please also cite the corresponding dataset and cosmological references used to construct the analysis.
-
-## License
-
-See the repository license for terms of use.
